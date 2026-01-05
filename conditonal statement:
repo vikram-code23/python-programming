@@ -1,0 +1,6 @@
+a=int(input("enter your age : "))
+country=input("country : ")
+if a >= 18 and country == "india":
+    print("you are eligible")
+else:
+    print ("not eligible")
