@@ -1,0 +1,8 @@
+def power(a,b=2):
+    return a ** b
+print(power(4))
+print(power(4,5))
+
+#output
+16
+1024
