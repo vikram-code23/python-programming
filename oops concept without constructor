@@ -1,0 +1,9 @@
+class person:
+    def set_name(self,name):
+        self.name=name
+p=person()
+p.set_name("VK")
+print(p.name)
+
+#output
+VK
