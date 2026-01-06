@@ -1,0 +1,14 @@
+class student:
+    def __init__(self,name,marks):
+        self.name= name
+        self.marks=marks
+s=student("VK",95)
+print(s.name)
+print(s.marks)
+
+#output
+VK
+95
+
+A constructor is a special method in Python used to initialize object data.
+It is automatically called when an object is created.
