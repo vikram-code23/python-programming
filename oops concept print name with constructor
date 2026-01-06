@@ -1,0 +1,17 @@
+class person:
+    def __init__(self,name):
+        self.name=name
+p=person("VK")
+print(p.name)
+
+#output
+VK
+
+🔥 WHY CONSTRUCTOR IMPORTANT?
+❌ Without constructor:
+Data marakka chance
+Object incomplete
+✅ With constructor:
+Object always ready
+Safe
+Clean code
